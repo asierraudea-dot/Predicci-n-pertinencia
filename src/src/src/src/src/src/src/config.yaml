@@ -1,0 +1,19 @@
+model:
+
+  random_state: 42
+
+  clusters: 4
+
+xgboost:
+
+  learning_rate: 0.05
+
+  max_depth: 6
+
+  estimators: 300
+
+data:
+
+  eva: data/raw/EVA.csv
+
+  sena: data/raw/CATALOGO.xlsx
